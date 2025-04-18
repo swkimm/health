@@ -17,6 +17,8 @@ Vue.js와 Spring Boot를 활용한 팀 프로젝트로,
 | 기타 | RESTful API, FullCalendar.js |
 
 ---
+## 🔧 프로젝트 구조
+
 <pre>
 health/
 ├── src/
