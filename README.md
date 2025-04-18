@@ -17,6 +17,30 @@ Vue.js와 Spring Boot를 활용한 팀 프로젝트로,
 | 기타 | RESTful API, FullCalendar.js |
 
 ---
+<pre>
+health/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/health/
+│   │   │       ├── controller/      # API 컨트롤러
+│   │   │       ├── domain/          # 도메인 모델
+│   │   │       ├── mapper/          # MyBatis 매퍼 인터페이스
+│   │   │       └── service/         # 서비스 로직
+│   │   ├── resources/
+│   │   │   ├── mapper/              # MyBatis XML 매퍼
+│   │   │   └── application.yml      # 설정 파일
+│   └── frontend/
+│       └── src/
+│           ├── assets/
+│           ├── components/          # Vue 컴포넌트
+│           ├── router/              # Vue Router
+│           └── views/               # 페이지 컴포넌트
+├── build.gradle
+└── README.md
+</pre>
+
+---
 
 ## 📌 주요 기능
 
